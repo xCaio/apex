@@ -16,3 +16,8 @@ lista2.addAll(lista);
 lista2.add('d');
 lista2.add('a');
 System.debug(lista2);
+
+Map<Integer, String> frutas = new Map<Integer,String>();
+frutas.put(1, 'Maçã');
+frutas.put(2, 'Banana');
+System.debug(frutas);
